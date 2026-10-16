@@ -90,6 +90,7 @@ final class AppModel {
             case .chat: return chatPath
             case .control: return controlPath
             case .computers: return computersPath
+            case .machine: return []
             }
         }
         set {
@@ -97,6 +98,7 @@ final class AppModel {
             case .chat: chatPath = newValue
             case .control: controlPath = newValue
             case .computers: computersPath = newValue
+            case .machine: break
             }
         }
     }

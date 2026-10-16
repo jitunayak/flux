@@ -20,6 +20,8 @@ struct ContentView: View {
                 NavigationStack(path: $model.controlPath) { ControlView() }
             case .computers:
                 NavigationStack(path: $model.computersPath) { ComputersPage() }
+            case .machine:
+                NavigationStack { DaemonView() }
             }
         }
         .modifier(ToastOverlay())

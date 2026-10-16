@@ -2,9 +2,10 @@ import AppKit
 import FluxKit
 import SwiftUI
 
-/// The 3 destinations of the sidebar, in order.
+/// The destinations of the sidebar, in order. This Mac is the local fluxd
+/// that turns this Mac into the computer; the others are its remote.
 enum MacDestination: String, CaseIterable, Identifiable, Hashable {
-    case chat, control, computers
+    case chat, control, computers, machine
 
     var id: String { rawValue }
 
@@ -13,6 +14,7 @@ enum MacDestination: String, CaseIterable, Identifiable, Hashable {
         case .chat: return "Chat"
         case .control: return "Control"
         case .computers: return "Computers"
+        case .machine: return "This Mac"
         }
     }
 
@@ -21,6 +23,7 @@ enum MacDestination: String, CaseIterable, Identifiable, Hashable {
         case .chat: return "text.bubble"
         case .control: return "slider.horizontal.3"
         case .computers: return "laptopcomputer"
+        case .machine: return "macbook"
         }
     }
 
@@ -30,6 +33,7 @@ enum MacDestination: String, CaseIterable, Identifiable, Hashable {
         case .chat: return KeyEquivalent("1")
         case .control: return KeyEquivalent("2")
         case .computers: return KeyEquivalent("3")
+        case .machine: return KeyEquivalent("4")
         }
     }
 }
