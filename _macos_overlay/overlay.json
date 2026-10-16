@@ -3,6 +3,8 @@
     "/Users/jitunayak/flux/internal/ipc/peer.go": "/Users/jitunayak/flux/_macos_overlay/internal_ipc_peer.go",
     "/Users/jitunayak/flux/internal/herdr/herdr.go": "/Users/jitunayak/flux/_macos_overlay/internal_herdr_herdr.go",
     "/Users/jitunayak/flux/internal/desktop/theme.go": "/Users/jitunayak/flux/_macos_overlay/internal_desktop_theme.go",
+    "/Users/jitunayak/flux/internal/desktop/clipboard.go": "/Users/jitunayak/flux/_macos_overlay/internal_desktop_clipboard.go",
+    "/Users/jitunayak/flux/internal/desktop/notify.go": "/Users/jitunayak/flux/_macos_overlay/internal_desktop_notify.go",
     "/Users/jitunayak/flux/internal/desktop/keyboard.go": "/Users/jitunayak/flux/_macos_overlay/internal_desktop_keyboard.go",
     "/Users/jitunayak/flux/internal/core/stream.go": "/Users/jitunayak/flux/_macos_overlay/internal_core_stream.go",
     "/Users/jitunayak/flux/internal/core/automation.go": "/Users/jitunayak/flux/_macos_overlay/internal_core_automation.go",
