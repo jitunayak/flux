@@ -1,0 +1,12 @@
+{
+  "Replace": {
+    "/Users/jitunayak/flux/internal/ipc/peer.go": "/Users/jitunayak/flux/_macos_overlay/internal_ipc_peer.go",
+    "/Users/jitunayak/flux/internal/herdr/herdr.go": "/Users/jitunayak/flux/_macos_overlay/internal_herdr_herdr.go",
+    "/Users/jitunayak/flux/internal/desktop/theme.go": "/Users/jitunayak/flux/_macos_overlay/internal_desktop_theme.go",
+    "/Users/jitunayak/flux/internal/desktop/keyboard.go": "/Users/jitunayak/flux/_macos_overlay/internal_desktop_keyboard.go",
+    "/Users/jitunayak/flux/internal/core/stream.go": "/Users/jitunayak/flux/_macos_overlay/internal_core_stream.go",
+    "/Users/jitunayak/flux/internal/core/automation.go": "/Users/jitunayak/flux/_macos_overlay/internal_core_automation.go",
+    "/Users/jitunayak/flux/internal/core/mic.go": "/Users/jitunayak/flux/_macos_overlay/internal_core_mic.go",
+    "/Users/jitunayak/flux/cmd/flux/main.go": "/Users/jitunayak/flux/_macos_overlay/cmd_flux_main.go"
+  }
+}
